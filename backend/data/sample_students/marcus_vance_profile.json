@@ -1,0 +1,48 @@
+{
+  "id": "student_marcus_vance",
+  "name": "Marcus Vance",
+  "email": "marcus.vance@mit.edu",
+  "avatar_color": "#10b981",
+  "target_role": "Junior Software Developer",
+  "target_curriculum": "Foundations of Computing",
+  "overall_gpa": 3.45,
+  "skills": [
+    {
+      "topic_id": "dsa_dynamic_programming",
+      "topic_name": "Dynamic Programming",
+      "category": "Computer Science",
+      "score": 0.35,
+      "bloom_level": "Remember",
+      "attempts": 2,
+      "last_assessed": "2024-04-13T09:00:00Z"
+    },
+    {
+      "topic_id": "dsa_trees_graphs",
+      "topic_name": "Graph Algorithms & Trees",
+      "category": "Computer Science",
+      "score": 0.44,
+      "bloom_level": "Understand",
+      "attempts": 3,
+      "last_assessed": "2024-04-11T11:00:00Z"
+    },
+    {
+      "topic_id": "db_indexing_concurrency",
+      "topic_name": "Database Indexing & Concurrency Control",
+      "category": "Database Systems",
+      "score": 0.58,
+      "bloom_level": "Understand",
+      "attempts": 2,
+      "last_assessed": "2024-04-09T15:30:00Z"
+    },
+    {
+      "topic_id": "ml_neural_networks",
+      "topic_name": "Neural Networks & Backpropagation",
+      "category": "Machine Learning",
+      "score": 0.40,
+      "bloom_level": "Remember",
+      "attempts": 2,
+      "last_assessed": "2024-04-06T14:15:00Z"
+    }
+  ],
+  "created_at": "2024-02-01T10:00:00Z"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "student_alex_chen",
+  "name": "Alex Chen",
+  "email": "alex.chen@stanford.edu",
+  "avatar_color": "#6366f1",
+  "target_role": "Full-Stack & Systems Engineer",
+  "target_curriculum": "Computer Science Core",
+  "overall_gpa": 3.72,
+  "skills": [
+    {
+      "topic_id": "dsa_dynamic_programming",
+      "topic_name": "Dynamic Programming",
+      "category": "Computer Science",
+      "score": 0.42,
+      "bloom_level": "Understand",
+      "attempts": 4,
+      "last_assessed": "2024-04-12T10:30:00Z"
+    },
+    {
+      "topic_id": "dsa_trees_graphs",
+      "topic_name": "Graph Algorithms & Trees",
+      "category": "Computer Science",
+      "score": 0.88,
+      "bloom_level": "Analyze",
+      "attempts": 7,
+      "last_assessed": "2024-04-10T14:20:00Z"
+    },
+    {
+      "topic_id": "math_linear_algebra",
+      "topic_name": "Spectral Theory & Eigenvalues",
+      "category": "Applied Mathematics",
+      "score": 0.55,
+      "bloom_level": "Understand",
+      "attempts": 2,
+      "last_assessed": "2024-04-08T09:15:00Z"
+    },
+    {
+      "topic_id": "db_indexing_concurrency",
+      "topic_name": "Database Indexing & Concurrency Control",
+      "category": "Database Systems",
+      "score": 0.84,
+      "bloom_level": "Apply",
+      "attempts": 5,
+      "last_assessed": "2024-04-05T16:45:00Z"
+    },
+    {
+      "topic_id": "ml_neural_networks",
+      "topic_name": "Neural Networks & Backpropagation",
+      "category": "Machine Learning",
+      "score": 0.68,
+      "bloom_level": "Apply",
+      "attempts": 3,
+      "last_assessed": "2024-04-02T11:00:00Z"
+    }
+  ],
+  "created_at": "2024-01-15T08:00:00Z"
+}
