@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: smart-assignment-rag-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - EMBEDDING_PROVIDER=local
+      - LLM_PROVIDER=pedagogical_engine
+      - USE_FIREBASE_MOCK=true
+      - PORT=8000
+    volumes:
+      - ./backend/data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: smart-assignment-rag-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
